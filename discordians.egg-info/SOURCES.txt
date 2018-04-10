@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+discordians/__init__.py
+discordians/client.py
+discordians.egg-info/PKG-INFO
+discordians.egg-info/SOURCES.txt
+discordians.egg-info/dependency_links.txt
+discordians.egg-info/requires.txt
+discordians.egg-info/top_level.txt
