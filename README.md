@@ -1,5 +1,5 @@
 # Discordian-API for Python
-============================
+------------------------------
 A simple fully async wrapper for the Discordians API.
 
 ## Example
