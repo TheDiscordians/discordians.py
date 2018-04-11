@@ -1,4 +1,5 @@
-README.md
+MANIFEST.in
+README.rst
 setup.cfg
 setup.py
 discordians/__init__.py

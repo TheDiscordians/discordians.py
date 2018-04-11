@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-long_description = open("README.md").read()
+long_description = open("README.rst").read()
 setup(
     name="discordians",
-    version="1.0.0",
+    version="1.0.2",
     description="The official Python wrapper for the Discordians API.",
     url="https://github.com/TheDiscordians/discordians.py",
     author="NightShade256",

@@ -1,0 +1,485 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>discordians package &mdash; discordians.py 1.0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="discordians" href="modules.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> discordians.py
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">discordians</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">discordians package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-discordians.client">discordians.client module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-discordians">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">discordians.py</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">discordians</a> &raquo;</li>
+        
+      <li>discordians package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/discordians.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="discordians-package">
+<h1>discordians package<a class="headerlink" href="#discordians-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-discordians.client">
+<span id="discordians-client-module"></span><h2>discordians.client module<a class="headerlink" href="#module-discordians.client" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="discordians.client.ArgumentError">
+<em class="property">exception </em><code class="descclassname">discordians.client.</code><code class="descname">ArgumentError</code><a class="headerlink" href="#discordians.client.ArgumentError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="discordians.client.DifferentResponseCode">
+<em class="property">exception </em><code class="descclassname">discordians.client.</code><code class="descname">DifferentResponseCode</code><a class="headerlink" href="#discordians.client.DifferentResponseCode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="discordians.client.DiscordiansClient">
+<em class="property">class </em><code class="descclassname">discordians.client.</code><code class="descname">DiscordiansClient</code><span class="sig-paren">(</span><em>loop=None</em>, <em>session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The main class to interact with the API.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
+<li><a class="reference internal" href="#discordians.client.ArgumentError" title="discordians.client.ArgumentError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ArgumentError</span></code></a> – Invalid arguments passed.</li>
+<li><a class="reference internal" href="#discordians.client.DifferentResponseCode" title="discordians.client.DifferentResponseCode"><code class="xref py py-exc docutils literal notranslate"><span class="pre">DifferentResponseCode</span></code></a> – The API returned a non-200 response code.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.cursive">
+<code class="descname">cursive</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.cursive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return cursive text from normal text.
+This function is a coroutine.</p>
+<p>Args:
+text (str) : The text to convert</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the cursive text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.dilbert">
+<code class="descname">dilbert</code><span class="sig-paren">(</span><em>*</em>, <em>today=False</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.dilbert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a random or today’s Dilbert comic.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>today</strong> (<em>bool</em>) – The bool specifying to get today’s comic or not.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the url to the Dilbert comic image.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;URL&quot;</span><span class="p">:</span> <span class="n">Website</span> <span class="n">link</span>
+    <span class="s2">&quot;image&quot;</span><span class="p">:</span> <span class="n">image</span> <span class="n">URL</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.fancy">
+<code class="descname">fancy</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.fancy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return fancy text from normal text.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<em>str</em>) – The text to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the fancy text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.fancy2">
+<code class="descname">fancy2</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.fancy2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return fancy (style 2) text from normal text.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<em>str</em>) – The text to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the fancy (style 2) text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.garfield">
+<code class="descname">garfield</code><span class="sig-paren">(</span><em>*</em>, <em>today=False</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.garfield" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a random or today’s Garfield comic.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>today</strong> (<em>bool</em>) – The bool specifying to get today’s comic or not.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the url to the Garfield comic image.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;image&quot;</span><span class="p">:</span> <span class="n">URL</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.leet">
+<code class="descname">leet</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.leet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return leet text from normal text.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<em>str</em>) – The text to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the leet type text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.pickupline">
+<code class="descname">pickupline</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.pickupline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a random pickup line.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A dictionary containing the pickup line.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;pickupLine&quot;</span><span class="p">:</span> <span class="n">the</span> <span class="n">pickup</span> <span class="n">line</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.pirate">
+<code class="descname">pirate</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.pirate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return pirate talk text from normal text.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<em>str</em>) – The text to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the pirate talk text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="discordians.client.DiscordiansClient.zalgolize">
+<code class="descname">zalgolize</code><span class="sig-paren">(</span><em>*</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#discordians.client.DiscordiansClient.zalgolize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return zalgolized text from normal text.
+This function is a coroutine.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<em>str</em>) – The text to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A dictionary that contains the zalgolized text.<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="n">The</span> <span class="n">converted</span> <span class="n">text</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-discordians">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-discordians" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="modules.html" class="btn btn-neutral" title="discordians" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, NightShade256.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0.2',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
+      });
+  </script> 
+
+</body>
+</html>
