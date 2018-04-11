@@ -1,5 +1,5 @@
 import asyncio
-import urllib.parse
+
 import aiohttp
 
 
@@ -32,8 +32,8 @@ class DiscordiansClient:
         async with self._session.get("{}{}".format(self.baseURL, endpoint), params=params) as resp:
             if resp.status != 200:
                 raise DifferentResponseCode("API returned a non-200 response code, that is {}.".format(resp.status))
-            text = await resp.text()
-        return text
+            json = await resp.json()
+        return json
 
     async def cursive(self, *, text=None):
         """Return cursive text from normal text.
