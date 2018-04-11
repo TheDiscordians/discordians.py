@@ -15,9 +15,8 @@ Fetching fancy variant of normal text.
     import asyncio
     import discordians
 
-    client = discordians.DiscordiansClient()
-
     async def main():
+        client = discordians.DiscordiansClient()
         text="This is gonna be fancy!"
         fancyText = await client.fancy(text=text)
         print(fancyText)
