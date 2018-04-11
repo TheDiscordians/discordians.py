@@ -203,4 +203,6 @@ class DiscordiansClient:
         """
         return await self._get("fun/pickup-line", None)
 
+    async def close(self):
+        await self._session.close()
         

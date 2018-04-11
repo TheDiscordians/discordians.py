@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 long_description = open("README.rst").read()
 setup(
     name="discordians",
-    version="1.0.2",
+    version="1.0.3",
     description="The official Python wrapper for the Discordians API.",
     url="https://github.com/TheDiscordians/discordians.py",
     author="NightShade256",
