@@ -20,13 +20,14 @@ Fetching fancy variant of normal text.
         text="This is gonna be fancy!"
         fancyText = await client.fancy(text=text)
         print(fancyText)
+        await client.close()
 
     asyncio.get_event_loop().run_until_complete(main())
 
 Requirements
 ================
 
-aiohttp>=2.0.0,<2.3.0
+aiohttp>=3.3.0,<3.4.0
 
 Contributing
 =============
