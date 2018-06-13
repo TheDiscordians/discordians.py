@@ -1,0 +1,16 @@
+The discordians API reference
+=============================
+
+Client
+-------
+
+.. autoclass:: discordians.client.DiscordiansClient
+	:members:
+
+Exceptions
+-----------
+These are the exceptions raised by the client.
+
+.. autoexception:: discordians.exceptions.DifferentResponseCode
+
+.. autoexception:: discordians.exceptions.ArgumentError

@@ -42,4 +42,4 @@ https://discord.gg/jr8g83W
 License
 ===========
 
-It’s released under the MIT license.
+It's released under the MIT license.
